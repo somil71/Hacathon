@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: 100vh; /* Ensure the main content takes up at least the full viewport height */
+  padding-bottom: 50px; /* Add some padding at the bottom */
+}
+
+header {
+  background-color: #0056a6;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.emblem {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 5px 0 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.registration-container {
+  background-color: rgb(148, 219, 137);
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h3 {
+  text-align: center;
+  color: #0056a6;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input, textarea, select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0056a6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #003d73;
+}
+
+footer {
+  background-color: #0056a6;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

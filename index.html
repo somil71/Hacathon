@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministry of AYUSH - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="1.jpg" alt="India Emblem" class="emblem">
+            <h1>Ministry of AYUSH</h1>
+            <h2>Government of India</h2>
+        </div>
+    </header>
+    <main>
+        <div class="registration-container">
+            <h3>Registration Form</h3>
+            <form action="#" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+                
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+                
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <label for="occupation">Occupation</label>
+                <input type="text" id="occupation" name="occupation" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Ministry of AYUSH, Government of India. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
